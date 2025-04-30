@@ -1,0 +1,13 @@
+void main() {
+  print('Hello, World!');
+  
+  int a = 5;
+  int b = 10;
+  int sum = addNumbers(a, b);
+  
+  print('Sum: $sum');
+}
+
+int addNumbers(int x, int y) {
+  return x + y;
+}
